@@ -51,7 +51,7 @@
 
     const now = new Date();
     now.setHours(0, 0, 0, 0);
-    const upcoming = [...body.querySelectorAll("tr")].find((row) => new Date(`${row.dataset.date}T23:59:59`) >= now);
+    const upcoming = [...body.querySelectorAll("tr")].find((row) => new Date(`${row.dataset.date}T00:00:00`) > now);
     if (upcoming) {
       upcoming.classList.add("is-next");
       upcoming.querySelector("td")?.insertAdjacentHTML("afterbegin", '<span class="next-marker">Next</span>');

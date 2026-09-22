@@ -8,7 +8,7 @@ window.COURSE_DATA = {
     canvas: "https://canvas.upenn.edu/courses/1948454",
     ed: "https://edstem.org/us/courses/104834",
     syllabusPdf: "assets/docs/cis6270-syllabus-fall-2026.pdf",
-    updated: "September 18, 2026"
+    updated: "September 22, 2026"
   },
 
   staff: [
@@ -152,6 +152,15 @@ window.COURSE_DATA = {
       title: "Reverse-Time Diffusion and DDPMs",
       links: [
         { label: "Lecture Notes", url: "https://drive.google.com/file/d/1DpLHERt83RKvvHXsIv2_qWhpFl20lPK5/view?usp=sharing" }
+      ]
+    },
+    {
+      number: 9,
+      dates: ["2026-09-22"],
+      date: "September 22, 2026",
+      title: "Diffusion Paths and Probability-Flow ODEs",
+      links: [
+        { label: "Lecture Notes", url: "assets/docs/cis6270-lecture-3.3-2026-09-22.pdf" }
       ]
     }
   ],
