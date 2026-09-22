@@ -59,6 +59,10 @@ window.COURSE_DATA = {
       defense: "September 30, 2026",
       description: "A two-modality empirical study comparing continuous flow matching and diffusion under a matched protocol, with guided generation and an ablated methodological innovation.",
       status: "Available",
+      resources: [
+        { label: "Project Description", url: "assets/docs/cis6270-fall-2026-project-1-description.pdf" },
+        { label: "Paper Template", url: "assets/docs/cis6270-fall-2026-project-1-paper-template.pdf" }
+      ],
       canvasUrl: "https://canvas.upenn.edu/courses/1948454/assignments/15122164"
     },
     {
