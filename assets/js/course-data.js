@@ -175,7 +175,7 @@ window.COURSE_DATA = {
       links: [
         {
           label: "Lecture Notes",
-          url: "assets/docs/cis6270-lecture-2026-09-24.pdf"
+          url: "assets/docs/cis6270-lecture-3.4-2026-09-24.pdf"
         }
       ]
     }
