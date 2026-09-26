@@ -8,7 +8,7 @@ window.COURSE_DATA = {
     canvas: "https://canvas.upenn.edu/courses/1948454",
     ed: "https://edstem.org/us/courses/104834",
     syllabusPdf: "assets/docs/cis6270-syllabus-fall-2026.pdf",
-    updated: "September 24, 2026"
+    updated: "September 26, 2026"
   },
 
   staff: [
@@ -60,8 +60,8 @@ window.COURSE_DATA = {
       description: "A two-modality empirical study comparing continuous flow matching and diffusion under a matched protocol, with guided generation and an ablated methodological innovation.",
       status: "Available",
       resources: [
-        { label: "Project Description", url: "assets/docs/cis6270-fall-2026-project-1-description.pdf" },
-        { label: "Paper Template", url: "assets/docs/cis6270-fall-2026-project-1-paper-template.pdf" }
+        { label: "Project Description", url: "assets/docs/projects/cis6270-fall-2026-project-1-description.pdf" },
+        { label: "Paper Template", url: "assets/docs/projects/cis6270-fall-2026-project-1-paper-template.pdf" }
       ],
       canvasUrl: "https://canvas.upenn.edu/courses/1948454/assignments/15122164"
     },
@@ -82,6 +82,32 @@ window.COURSE_DATA = {
       description: "Extend Project 1, Project 2, or both into a coherent methodological contribution supported by theory, baselines, ablations, multi-seed experiments, guidance analyses, and cross-setting validation.",
       status: "Forthcoming",
       canvasUrl: "https://canvas.upenn.edu/courses/1948454/assignments"
+    }
+  ],
+
+  exams: [
+    {
+      title: "Exam 1",
+      weight: "15%",
+      date: "2026-10-08",
+      displayDate: "October 8, 2026",
+      status: "Exam forthcoming",
+      practiceStatus: "Available",
+      description: "Material taught from August 25 through September 29: mathematical foundations, maps and changes of variables, ODEs and probability conservation, flow matching, SDEs, continuous diffusion, score matching, DDPMs, guidance, masked diffusion, and MDLM foundations",
+      resources: [
+        { label: "Practice Exam 1", url: "assets/docs/exams/cis6270-fall-2026-practice-exam-1.pdf" },
+        { label: "Practice Exam 1 - Key", url: "assets/docs/exams/cis6270-fall-2026-practice-exam-1-key.pdf" }
+      ]
+    },
+    {
+      title: "Exam 2",
+      weight: "15%",
+      date: "2026-11-19",
+      displayDate: "November 19, 2026",
+      status: "Exam forthcoming",
+      practiceStatus: "Forthcoming",
+      description: "Cumulative review of all material taught from August 25 through November 12, with emphasis on discrete diffusion, discrete flow matching, guidance, and flow maps",
+      resources: []
     }
   ],
 
@@ -164,7 +190,7 @@ window.COURSE_DATA = {
       date: "September 22, 2026",
       title: "Diffusion Paths and Probability-Flow ODEs",
       links: [
-        { label: "Lecture Notes", url: "assets/docs/cis6270-lecture-3.3-2026-09-22.pdf" }
+        { label: "Lecture Notes", url: "assets/docs/lectures/cis6270-lecture-3.3-2026-09-22.pdf" }
       ]
     },
     {
@@ -175,7 +201,7 @@ window.COURSE_DATA = {
       links: [
         {
           label: "Lecture Notes",
-          url: "assets/docs/cis6270-lecture-3.4-2026-09-24.pdf"
+          url: "assets/docs/lectures/cis6270-lecture-3.4-2026-09-24.pdf"
         }
       ]
     }

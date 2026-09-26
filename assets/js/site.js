@@ -102,6 +102,30 @@
       </article>`).join("");
   }
 
+  function renderExams() {
+    const target = document.querySelector("[data-exam-list]");
+    if (!target) return;
+
+    target.innerHTML = data.exams.map((exam) => `
+      <article class="project-item">
+        <div class="project-heading">
+          <p class="project-weight">${escapeHtml(exam.weight)}</p>
+          <h3>${escapeHtml(exam.title)}</h3>
+          <p class="project-status">${escapeHtml(exam.status)}</p>
+        </div>
+        <div class="project-details">
+          <p>${escapeHtml(exam.description)}</p>
+          <dl>
+            <div><dt>Date</dt><dd><time datetime="${escapeHtml(exam.date)}">${escapeHtml(exam.displayDate)}</time></dd></div>
+            <div><dt>Practice exam</dt><dd>${escapeHtml(exam.practiceStatus)}</dd></div>
+          </dl>
+          ${exam.resources.length ? `<div class="project-links">
+            ${exam.resources.map((resource) => externalLink(resource.url, resource.label, "text-link")).join("")}
+          </div>` : ""}
+        </div>
+      </article>`).join("");
+  }
+
   function setupHeroAnimation() {
     const canvas = document.querySelector("[data-hero-animation]");
     if (!canvas) return;
@@ -283,6 +307,7 @@
     if (!data) return;
     renderSchedule();
     renderProjects();
+    renderExams();
     renderStaff();
     setupHeroAnimation();
   });
