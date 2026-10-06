@@ -213,6 +213,15 @@ window.COURSE_DATA = {
       links: [
         { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-2026-09-29.pdf" }
       ]
+    },
+    {
+      number: 12,
+      dates: ["2026-10-06"],
+      date: "October 6, 2026",
+      title: "Continuous-Time Markov Chains",
+      links: [
+        { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-4.2-2026-10-06.pdf" }
+      ]
     }
   ],
 
