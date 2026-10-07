@@ -119,8 +119,9 @@
             <div><dt>Date</dt><dd><time datetime="${escapeHtml(exam.date)}">${escapeHtml(exam.displayDate)}</time></dd></div>
             <div><dt>Practice exam</dt><dd>${escapeHtml(exam.practiceStatus)}</dd></div>
           </dl>
-          ${exam.resources.length ? `<div class="project-links">
+          ${exam.resources.length || exam.formulaSheet?.url ? `<div class="project-links">
             ${exam.resources.map((resource) => externalLink(resource.url, resource.label, "text-link")).join("")}
+            ${exam.formulaSheet?.url ? externalLink(exam.formulaSheet.url, exam.formulaSheet.label || "Formula Sheet", "text-link") : ""}
           </div>` : ""}
         </div>
       </article>`).join("");
