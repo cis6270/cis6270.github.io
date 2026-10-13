@@ -220,6 +220,15 @@ window.COURSE_DATA = {
       links: [
         { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-4.2-2026-10-06.pdf" }
       ]
+    },
+    {
+      number: 13,
+      dates: ["2026-10-13"],
+      date: "October 13, 2026",
+      title: "Reverse Rates, Guidance, and the Rate-Matching Loss",
+      links: [
+        { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-4.3-2026-10-13.pdf" }
+      ]
     }
   ],
 
