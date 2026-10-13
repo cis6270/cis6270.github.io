@@ -24,6 +24,9 @@
   }
 
   function scheduleMaterials(item) {
+    if (Array.isArray(item.links) && item.links.length) {
+      return item.links.map((link) => externalLink(link.url, link.label, "mini-link")).join("");
+    }
     const lecture = data.lectures.find((entry) => materialDates(entry).includes(item.date));
     if (!lecture || !lecture.links.length) return '<span class="muted">-</span>';
     const dates = materialDates(lecture);
