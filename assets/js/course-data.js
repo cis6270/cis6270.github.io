@@ -229,6 +229,15 @@ window.COURSE_DATA = {
       links: [
         { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-4.3-2026-10-13.pdf" }
       ]
+    },
+    {
+      number: 14,
+      dates: ["2026-10-15"],
+      date: "October 15, 2026",
+      title: "Discrete Diffusion Models and Guided Sequence Generation",
+      links: [
+        { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-4.4-2026-10-15.pdf" }
+      ]
     }
   ],
 
