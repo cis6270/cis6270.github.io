@@ -238,6 +238,15 @@ window.COURSE_DATA = {
       links: [
         { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-4.4-2026-10-15.pdf" }
       ]
+    },
+    {
+      number: 15,
+      dates: ["2026-10-20"],
+      date: "October 20, 2026",
+      title: "Discrete Flow Matching with Jump Rates",
+      links: [
+        { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-4.5-2026-10-20.pdf" }
+      ]
     }
   ],
 
