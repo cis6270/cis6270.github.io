@@ -99,7 +99,6 @@
           </dl>
           <div class="project-links">
             ${(project.resources || []).map((resource) => externalLink(resource.url, resource.label, "text-link")).join("")}
-            ${externalLink(project.canvasUrl, "View project in Canvas", "text-link")}
           </div>
         </div>
       </article>`).join("");

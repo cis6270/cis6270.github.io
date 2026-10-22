@@ -61,9 +61,9 @@ window.COURSE_DATA = {
       status: "Available",
       resources: [
         { label: "Project Description", url: "assets/docs/projects/cis6270-fall-2026-project-1-description.pdf" },
-        { label: "Paper Template", url: "assets/docs/projects/cis6270-fall-2026-project-1-paper-template.pdf" }
-      ],
-      canvasUrl: "https://canvas.upenn.edu/courses/1948454/assignments/15122164"
+        { label: "Paper Template", url: "assets/docs/projects/cis6270-fall-2026-project-1-paper-template.pdf" },
+        { label: "LaTeX (zip)", url: "assets/docs/projects/cis6270-fall-2026-project-1-latex.zip" }
+      ]
     },
     {
       title: "Project 2 - Discrete Generative Models: ICML-Ready Paper",
@@ -71,8 +71,12 @@ window.COURSE_DATA = {
       due: "December 3, 2026 at 8:30 a.m.",
       defense: "December 4, 2026",
       description: "Develop a novel discrete generative formulation and produce an ICML submission-ready paper and code repository. An ICML-ready paper outline is due November 10, 2026 at 8:30 a.m.",
-      status: "Forthcoming",
-      canvasUrl: "https://canvas.upenn.edu/courses/1948454/assignments"
+      status: "Available",
+      resources: [
+        { label: "Project Description", url: "assets/docs/projects/cis6270-fall-2026-project-2-description.pdf" },
+        { label: "Paper Template", url: "assets/docs/projects/cis6270-fall-2026-project-2-paper-template.pdf" },
+        { label: "LaTeX (zip)", url: "assets/docs/projects/cis6270-fall-2026-project-2-latex.zip" }
+      ]
     }
   ],
 
