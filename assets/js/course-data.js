@@ -73,9 +73,9 @@ window.COURSE_DATA = {
       description: "Develop a novel discrete generative formulation and produce an ICML submission-ready paper and code repository. An ICML-ready paper outline is due November 10, 2026 at 8:30 a.m.",
       status: "Available",
       resources: [
-        { label: "Project Description", url: "assets/docs/projects/cis6270-fall-2026-project-2-description.pdf" },
+        { label: "Project Description", url: "assets/docs/projects/cis6270-fall-2026-project-2-description.pdf?v=20261022" },
         { label: "Paper Template", url: "assets/docs/projects/cis6270-fall-2026-project-2-paper-template.pdf" },
-        { label: "LaTeX (zip)", url: "assets/docs/projects/cis6270-fall-2026-project-2-latex.zip" }
+        { label: "LaTeX (zip)", url: "assets/docs/projects/cis6270-fall-2026-project-2-latex.zip?v=20261022" }
       ]
     }
   ],
