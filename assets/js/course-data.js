@@ -8,7 +8,7 @@ window.COURSE_DATA = {
     canvas: "https://canvas.upenn.edu/courses/1948454",
     ed: "https://edstem.org/us/courses/104834",
     syllabusPdf: "assets/docs/cis6270-syllabus-fall-2026.pdf?v=20261012",
-    updated: "October 12, 2026"
+    updated: "October 25, 2026"
   },
 
   staff: [
@@ -107,9 +107,12 @@ window.COURSE_DATA = {
       date: "2026-11-19",
       displayDate: "November 19, 2026",
       status: "Exam forthcoming",
-      practiceStatus: "Forthcoming",
+      practiceStatus: "Available",
       description: "Cumulative coverage of all material taught from August 25 through November 10: mathematical foundations, continuous flow and diffusion models, discrete diffusion, discrete flow matching, guidance, and flow maps",
-      resources: []
+      resources: [
+        { label: "Practice Exam 1", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-1.pdf" },
+        { label: "Practice Exam 1 - Solutions", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-1-solutions.pdf" }
+      ]
     }
   ],
 
