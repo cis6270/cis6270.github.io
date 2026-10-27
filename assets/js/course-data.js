@@ -254,6 +254,15 @@ window.COURSE_DATA = {
       links: [
         { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-4.5-2026-10-20.pdf" }
       ]
+    },
+    {
+      number: 16,
+      dates: ["2026-10-27"],
+      date: "October 27, 2026",
+      title: "Discrete Flow Matching with Jump Rates",
+      links: [
+        { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-5.1-2026-10-27.pdf" }
+      ]
     }
   ],
 
@@ -280,7 +289,7 @@ window.COURSE_DATA = {
     { date: "2026-10-15", displayDate: "Thu, Oct 15", type: "lecture", title: "Discrete Diffusion Models and Guided Sequence Generation", details: "Structured and uniform corruption, score entropy, D3PM, SEDD, and block diffusion." },
     { date: "2026-10-20", displayDate: "Tue, Oct 20", type: "lecture", title: "Learned Rates, Planners, and Guided Sequence Generation", details: "Learned per-token rates, simplex diffusion, a full implementation for DNA, planner-guided sampling, guided peptide design, and any-length generation." },
     { date: "2026-10-22", displayDate: "Thu, Oct 22", type: "break", title: "No lecture", details: "Project 2 discussion; no lecture.", milestone: "Project 2 assigned" },
-    { date: "2026-10-27", displayDate: "Tue, Oct 27", type: "lecture", title: "Discrete Flow Matching with Jump Rates", details: "Probability paths, jump rates as probability velocities, the master equation as a continuity equation, couplings and mixture paths, conditional and marginal velocities, the denoiser and cross-entropy training, and sampling." },
+    { date: "2026-10-27", displayDate: "Tue, Oct 27", type: "lecture", title: "Discrete Flow Matching with Jump Rates", details: "Probability paths, jump rates as probability velocities, the master equation as a continuity equation, couplings and mixture paths, and conditional and marginal velocities." },
     { date: "2026-10-29", displayDate: "Thu, Oct 29", type: "lecture", title: "Correctors, Kinetic-Optimal Paths, and Edit Flows", details: "Schedules and sample quality, backward-velocity correctors, multimodal discrete flows, kinetic-optimal paths, insertions and deletions with Edit Flows, simplex-valued states, and Dirichlet conditional paths." },
     { date: "2026-11-03", displayDate: "Tue, Nov 3", type: "lecture", title: "Dirichlet, Fisher-Rao, and Gumbel-Softmax Flows", details: "Dirichlet velocities, scores, and guidance, Fisher information geometry and spherical geodesics, Gumbel-max sampling, differentiable Gumbel-softmax paths, temperature schedules, and the replicator equation." },
     { date: "2026-11-05", displayDate: "Thu, Nov 5", type: "lecture", title: "Guidance, Rectification, and Multi-Objective Refinement", details: "Guidance as an exact h-transform, predictor-free and Taylor-approximated guidance, multi-objective guidance, reflow and endpoint recoupling, total correlation, reward-tilted targets, and Metropolis-Hastings refinement." },
