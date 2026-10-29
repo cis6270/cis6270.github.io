@@ -8,7 +8,7 @@ window.COURSE_DATA = {
     canvas: "https://canvas.upenn.edu/courses/1948454",
     ed: "https://edstem.org/us/courses/104834",
     syllabusPdf: "assets/docs/cis6270-syllabus-fall-2026.pdf?v=20261012",
-    updated: "October 27, 2026"
+    updated: "October 29, 2026"
   },
 
   staff: [
@@ -263,6 +263,15 @@ window.COURSE_DATA = {
       links: [
         { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-5.1-2026-10-27.pdf" }
       ]
+    },
+    {
+      number: 17,
+      dates: ["2026-10-29"],
+      date: "October 29, 2026",
+      title: "Correctors, Kinetic-Optimal Paths, and Edit Flows",
+      links: [
+        { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-5.2-2026-10-29.pdf" }
+      ]
     }
   ],
 
@@ -290,7 +299,7 @@ window.COURSE_DATA = {
     { date: "2026-10-20", displayDate: "Tue, Oct 20", type: "lecture", title: "Learned Rates, Planners, and Guided Sequence Generation", details: "Learned per-token rates, simplex diffusion, a full implementation for DNA, planner-guided sampling, guided peptide design, and any-length generation." },
     { date: "2026-10-22", displayDate: "Thu, Oct 22", type: "break", title: "No lecture", details: "Project 2 discussion; no lecture.", milestone: "Project 2 assigned" },
     { date: "2026-10-27", displayDate: "Tue, Oct 27", type: "lecture", title: "Discrete Flow Matching with Jump Rates", details: "Probability paths, jump rates as probability velocities, the master equation as a continuity equation, couplings and mixture paths, and conditional and marginal velocities." },
-    { date: "2026-10-29", displayDate: "Thu, Oct 29", type: "lecture", title: "Correctors, Kinetic-Optimal Paths, and Edit Flows", details: "Schedules and sample quality, backward-velocity correctors, multimodal discrete flows, kinetic-optimal paths, insertions and deletions with Edit Flows, simplex-valued states, and Dirichlet conditional paths." },
+    { date: "2026-10-29", displayDate: "Thu, Oct 29", type: "lecture", title: "Correctors, Kinetic-Optimal Paths, and Edit Flows", details: "Denoiser training and cross-entropy, schedules and sample quality, Euler sampling, backward-velocity correctors, and kinetic-optimal paths." },
     { date: "2026-11-03", displayDate: "Tue, Nov 3", type: "lecture", title: "Dirichlet, Fisher-Rao, and Gumbel-Softmax Flows", details: "Dirichlet velocities, scores, and guidance, Fisher information geometry and spherical geodesics, Gumbel-max sampling, differentiable Gumbel-softmax paths, temperature schedules, and the replicator equation." },
     { date: "2026-11-05", displayDate: "Thu, Nov 5", type: "lecture", title: "Guidance, Rectification, and Multi-Objective Refinement", details: "Guidance as an exact h-transform, predictor-free and Taylor-approximated guidance, multi-objective guidance, reflow and endpoint recoupling, total correlation, reward-tilted targets, and Metropolis-Hastings refinement." },
     { date: "2026-11-10", displayDate: "Tue, Nov 10", type: "lecture", title: "Flow Maps and the Three Training Identities", details: "Finite-interval flow maps, the identity, cocycle, and tangent axioms, the Jacobian equation and Liouville's formula, the Lagrangian, Eulerian, and composition identities, and MeanFlow.", milestone: "Project 2 outline due at 8:30 a.m." },
