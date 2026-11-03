@@ -8,7 +8,7 @@ window.COURSE_DATA = {
     canvas: "https://canvas.upenn.edu/courses/1948454",
     ed: "https://edstem.org/us/courses/104834",
     syllabusPdf: "assets/docs/cis6270-syllabus-fall-2026.pdf?v=20261012",
-    updated: "October 29, 2026"
+    updated: "November 3, 2026"
   },
 
   staff: [
@@ -272,6 +272,15 @@ window.COURSE_DATA = {
       links: [
         { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-5.2-2026-10-29.pdf" }
       ]
+    },
+    {
+      number: 18,
+      dates: ["2026-11-03"],
+      date: "November 3, 2026",
+      title: "Dirichlet, Fisher-Rao, and Gumbel-Softmax Flows",
+      links: [
+        { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-5.3-2026-11-3.pdf" }
+      ]
     }
   ],
 
@@ -300,7 +309,7 @@ window.COURSE_DATA = {
     { date: "2026-10-22", displayDate: "Thu, Oct 22", type: "break", title: "No lecture", details: "Project 2 discussion; no lecture.", milestone: "Project 2 assigned" },
     { date: "2026-10-27", displayDate: "Tue, Oct 27", type: "lecture", title: "Discrete Flow Matching with Jump Rates", details: "Probability paths, jump rates as probability velocities, the master equation as a continuity equation, couplings and mixture paths, and conditional and marginal velocities." },
     { date: "2026-10-29", displayDate: "Thu, Oct 29", type: "lecture", title: "Correctors, Kinetic-Optimal Paths, and Edit Flows", details: "Denoiser training and cross-entropy, schedules and sample quality, Euler sampling, backward-velocity correctors, and kinetic-optimal paths." },
-    { date: "2026-11-03", displayDate: "Tue, Nov 3", type: "lecture", title: "Dirichlet, Fisher-Rao, and Gumbel-Softmax Flows", details: "Dirichlet velocities, scores, and guidance, Fisher information geometry and spherical geodesics, Gumbel-max sampling, differentiable Gumbel-softmax paths, temperature schedules, and the replicator equation." },
+    { date: "2026-11-03", displayDate: "Tue, Nov 3", type: "lecture", title: "Dirichlet, Fisher-Rao, and Gumbel-Softmax Flows", details: "Kinetic-optimal paths with token distances, Fisher-Rao geometry and spherical geodesics, insertions and deletions with Edit Flows, simplex-valued states, and Dirichlet flow matching." },
     { date: "2026-11-05", displayDate: "Thu, Nov 5", type: "lecture", title: "Guidance, Rectification, and Multi-Objective Refinement", details: "Guidance as an exact h-transform, predictor-free and Taylor-approximated guidance, multi-objective guidance, reflow and endpoint recoupling, total correlation, reward-tilted targets, and Metropolis-Hastings refinement." },
     { date: "2026-11-10", displayDate: "Tue, Nov 10", type: "lecture", title: "Flow Maps and the Three Training Identities", details: "Finite-interval flow maps, the identity, cocycle, and tangent axioms, the Jacobian equation and Liouville's formula, the Lagrangian, Eulerian, and composition identities, and MeanFlow.", milestone: "Project 2 outline due at 8:30 a.m." },
     { date: "2026-11-12", displayDate: "Thu, Nov 12", type: "lecture", title: "Consistency, Distillation, and Discrete Flow Maps", details: "Jacobian-vector products, shortcut and consistency models, trajectory error bounds, distillation and self-distillation, a worked implementation, the two-time denoiser on the simplex, and discrete flow maps." },
