@@ -119,7 +119,15 @@
       });
     }
     const practiceLinks = resources.filter((resource) => resource.label.startsWith("Practice"));
-    const rows = examLinkRow("Exam", examLinks) + examLinkRow("Practice", practiceLinks);
+    const practiceGroups = [];
+    practiceLinks.forEach((link) => {
+      const key = (link.label.match(/^Practice Exam \d+/) || ["other"])[0];
+      const last = practiceGroups[practiceGroups.length - 1];
+      if (!last || last.key !== key) practiceGroups.push({ key, links: [link] });
+      else last.links.push(link);
+    });
+    const practiceRows = practiceGroups.map((group, index) => examLinkRow(index === 0 ? "Practice" : "", group.links)).join("");
+    const rows = examLinkRow("Exam", examLinks) + practiceRows;
     return rows ? `<div class="exam-link-groups">${rows}</div>` : "";
   }
 
