@@ -8,7 +8,7 @@ window.COURSE_DATA = {
     canvas: "https://canvas.upenn.edu/courses/1948454",
     ed: "https://edstem.org/us/courses/104834",
     syllabusPdf: "assets/docs/cis6270-syllabus-fall-2026.pdf?v=20261012",
-    updated: "November 3, 2026"
+    updated: "November 5, 2026"
   },
 
   staff: [
@@ -111,7 +111,9 @@ window.COURSE_DATA = {
       description: "Cumulative coverage of all material taught from August 25 through November 17: mathematical foundations, continuous flow and diffusion models, discrete diffusion, discrete flow matching, guidance, and flow maps",
       resources: [
         { label: "Practice Exam 1", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-1.pdf" },
-        { label: "Practice Exam 1 - Solutions", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-1-solutions.pdf" }
+        { label: "Practice Exam 1 - Solutions", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-1-solutions.pdf" },
+        { label: "Practice Exam 2", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-2.pdf" },
+        { label: "Practice Exam 2 - Solutions", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-2-solutions.pdf" }
       ]
     }
   ],
@@ -281,6 +283,15 @@ window.COURSE_DATA = {
       links: [
         { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-5.3-2026-11-3.pdf" }
       ]
+    },
+    {
+      number: 19,
+      dates: ["2026-11-05"],
+      date: "November 5, 2026",
+      title: "Guidance, Rectification, and Multi-Objective Refinement",
+      links: [
+        { label: "Lecture Slides", url: "assets/docs/lectures/cis6270-lecture-5.4-2026-11-5.pdf" }
+      ]
     }
   ],
 
@@ -310,7 +321,7 @@ window.COURSE_DATA = {
     { date: "2026-10-27", displayDate: "Tue, Oct 27", type: "lecture", title: "Discrete Flow Matching with Jump Rates", details: "Probability paths, jump rates as probability velocities, the master equation as a continuity equation, couplings and mixture paths, and conditional and marginal velocities." },
     { date: "2026-10-29", displayDate: "Thu, Oct 29", type: "lecture", title: "Correctors, Kinetic-Optimal Paths, and Edit Flows", details: "Denoiser training and cross-entropy, schedules and sample quality, Euler sampling, backward-velocity correctors, and kinetic-optimal paths." },
     { date: "2026-11-03", displayDate: "Tue, Nov 3", type: "lecture", title: "Dirichlet, Fisher-Rao, and Gumbel-Softmax Flows", details: "Kinetic-optimal paths with token distances, insertions and deletions with Edit Flows, simplex-valued states, Dirichlet flow matching, Fisher-Rao geometry and spherical geodesics, and Gumbel-Softmax flow matching." },
-    { date: "2026-11-05", displayDate: "Thu, Nov 5", type: "lecture", title: "Guidance, Rectification, and Multi-Objective Refinement", details: "Guidance as an exact h-transform, predictor-free and Taylor-approximated guidance, multi-objective guidance, reflow and endpoint recoupling, total correlation, reward-tilted targets, and Metropolis-Hastings refinement." },
+    { date: "2026-11-05", displayDate: "Thu, Nov 5", type: "lecture", title: "Guidance, Rectification, and Multi-Objective Refinement", details: "Discrete Guidance as an exact Doob h-transform, guidance strength, a first-order Taylor approximation of the likelihood ratio, multi-objective guidance, and reward-tilted editing." },
     { date: "2026-11-10", displayDate: "Tue, Nov 10", type: "lecture", title: "Flow Maps and the Three Training Identities", details: "Finite-interval flow maps, the identity, cocycle, and tangent axioms, the Jacobian equation and Liouville's formula, the Lagrangian, Eulerian, and composition identities, and MeanFlow.", milestone: "Project 2 outline due at 8:30 a.m." },
     { date: "2026-11-12", displayDate: "Thu, Nov 12", type: "lecture", title: "Consistency, Distillation, and Discrete Flow Maps", details: "Jacobian-vector products, shortcut and consistency models, trajectory error bounds, distillation and self-distillation, a worked implementation, the two-time denoiser on the simplex, and discrete flow maps." },
     { date: "2026-11-17", displayDate: "Tue, Nov 17", type: "lecture", title: "Stochastic, Expanding, and Guided Flow Maps", details: "Solution maps of SDEs, strong stochastic flow maps with the noise path as an input, expansion and transport with birth events, variable-length generation, reward-tilted endpoints, value-gradient guidance, and a synthesis." },
