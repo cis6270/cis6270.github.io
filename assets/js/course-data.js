@@ -8,7 +8,7 @@ window.COURSE_DATA = {
     canvas: "https://canvas.upenn.edu/courses/1948454",
     ed: "https://edstem.org/us/courses/104834",
     syllabusPdf: "assets/docs/cis6270-syllabus-fall-2026.pdf?v=20261012",
-    updated: "November 17, 2026"
+    updated: "November 19, 2026"
   },
 
   staff: [
@@ -106,10 +106,17 @@ window.COURSE_DATA = {
       weight: "20%",
       date: "2026-11-19",
       displayDate: "November 19, 2026",
-      status: "Exam forthcoming",
+      status: "Available",
       practiceStatus: "Available",
+      formulaSheet: {
+        status: "Available",
+        label: "Exam 2 Formula Sheet",
+        url: "assets/docs/exams/cis6270-fall-2026-exam-2-formula-reference.pdf?v=20261119-2"
+      },
       description: "Cumulative coverage of all material taught from August 25 through November 17: mathematical foundations, continuous flow and diffusion models, discrete diffusion, discrete flow matching, guidance, and flow maps",
       resources: [
+        { label: "Exam 2", url: "assets/docs/exams/cis6270-fall-2026-exam-2.pdf" },
+        { label: "Exam 2 - Key", url: "assets/docs/exams/cis6270-fall-2026-exam-2-key.pdf" },
         { label: "Practice Exam 1", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-1.pdf" },
         { label: "Practice Exam 1 - Solutions", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-1-solutions.pdf" },
         { label: "Practice Exam 2", url: "assets/docs/exams/cis6270-fall-2026-exam-2-practice-2.pdf" },
@@ -352,7 +359,10 @@ window.COURSE_DATA = {
     { date: "2026-11-10", displayDate: "Tue, Nov 10", type: "lecture", title: "Rectification, Flow Maps, and the Three Training Identities", details: "Reflow and endpoint recoupling, total correlation, Metropolis-Hastings refinement, finite-interval flow maps, the identity, cocycle, and tangent axioms, and the Jacobian of the flow map.", milestone: "Project 2 outline due at 8:30 a.m." },
     { date: "2026-11-12", displayDate: "Thu, Nov 12", type: "lecture", title: "Consistency, Distillation, and Discrete Flow Maps", details: "The Jacobian equation and Liouville's formula, density transport along the flow, average-velocity flow maps, the Lagrangian, Eulerian, and composition training identities, consistency models, and distillation." },
     { date: "2026-11-17", displayDate: "Tue, Nov 17", type: "lecture", title: "Self-Distillation, MeanFlow, and Shortcut Models", details: "Flow map self-distillation, Lagrangian, Eulerian, and composition residuals, MeanFlow, shortcut models, consistency models, trajectory error bounds, and discrete versus continuous states for token generation." },
-    { date: "2026-11-19", displayDate: "Thu, Nov 19", type: "exam", title: "Exam 2", details: "Cumulative coverage of all material taught from August 25 through November 17: mathematical foundations, continuous flow and diffusion models, discrete diffusion, discrete flow matching, guidance, and flow maps." },
+    { date: "2026-11-19", displayDate: "Thu, Nov 19", type: "exam", title: "Exam 2", details: "Cumulative coverage of all material taught from August 25 through November 17: mathematical foundations, continuous flow and diffusion models, discrete diffusion, discrete flow matching, guidance, and flow maps.", links: [
+      { label: "Exam 2", url: "assets/docs/exams/cis6270-fall-2026-exam-2.pdf" },
+      { label: "Exam 2 - Key", url: "assets/docs/exams/cis6270-fall-2026-exam-2-key.pdf" }
+    ] },
     { date: "2026-11-24", displayDate: "Tue, Nov 24", type: "break", title: "No class", details: "" },
     { date: "2026-11-26", displayDate: "Thu, Nov 26", type: "break", title: "Thanksgiving Break", details: "November 26-29; no class." },
     { date: "2026-12-01", displayDate: "Tue, Dec 1", type: "lecture", title: "Flow Maps for Discrete and Conditional Generation", details: "Flow map language models, discrete and stochastic flow maps, posterior sampling, reward guidance, and expanding flow maps for outputs of varying size." },
